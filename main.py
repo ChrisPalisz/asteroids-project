@@ -28,6 +28,7 @@ def main():
 		screen.fill("black")
 
 		player_chara.draw(screen)
+		player_chara.update(dt)
 
 		pygame.display.flip()
 		clock.tick(60)
